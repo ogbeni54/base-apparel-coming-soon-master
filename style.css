@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/images/bg-pattern-desktop.svg);
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+span{
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+}
+.item1{
+    font-family: 'Josefin Sans', sans-serif;
+   
+    width: 60%;
+    /* flex-grow:5; */
+
+}
+#logo{
+    margin-top: 10px;
+}
+.para{
+    width: 60%;
+    margin: 10px auto;
+}
+.h_d{
+    margin-top: 60px;
+    width: 1%;
+    font-size: 50px;
+    color: hsl(0, 6%, 24%);
+}
+
+.text{
+    margin-top: 70px;
+    color: hsl(0, 36%, 70%);
+    font-size: 15px;
+}
+
+/* form,p,h1,img{
+    margin: auto 30px;
+} */
+.item2{
+    width: 40%;
+    /* height: 96vh; */
+    background-color:white;
+}
+.item2 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+form {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    
+    /* This bit draws the box around it */
+    /* border:.5px solid hsl(0, 93%, 68%); */
+    /* border-radius: 30px; */
+  
+    /* I've used padding so you can see the edges of the elements. */
+    padding:0px;
+    margin-top: 50px;
+    line-height: 10%;
+    position: relative;
+    
+  }
+  
+  input {
+    /* Tell the input to use all the available space */
+    flex-grow:2;
+    /* And hide the input's outline, so the form looks like the outline */
+    /* border:none; */
+    padding-left: 10px;
+    height: 50px;
+    border-radius: 30px;
+    border-width: 0.1px;
+    border-color: hsl(0, 36%, 70%);
+  }
+  
+  input:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+  }
+  
+  button {
+    /* Just a little styling to make it pretty */
+    border:0px solid hsl(0, 93%, 68%);
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    color: white;
+    width: 20%;
+    border-radius: 30px;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    cursor: pointer;
+    /* display: block; */
+
+  }
+  .warn{
+      border: 2px solid crimson;
+  }
+  .success{
+      border: 2px solid aquamarine;
+  }
+
+  .feedback{
+      width: 100%;
+      margin: 10px 30px;
+      /* display: none; */
+  }
+
+  #error1{
+    position: absolute;
+    right: 100px;
+    bottom: 10px;
+    display: none;
+  }
+  .mob{
+      display: none;
+  }
+  /* #major{
+    height: 100%;
+  } */
+
+  @media screen and (max-width:535px ) {
+      .container{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: auto;
+          width: 70%;
+          margin: 0px auto;
+      }
+
+      body {
+          overflow: visible;
+      }
+
+     #major{
+         display: none;
+     }
+     .mob{
+         display: block;
+         width: 100%;
+         margin: 0px auto;
+     }
+     .item1{
+         width: 100%;
+     }
+     .para{
+         width: 90%;
+         margin: 20px auto;
+         text-align: center;
+     }
+     .item2{
+         display: none;
+     }
+     .h_d{
+        width: auto;
+     }
+  }
