@@ -138,7 +138,7 @@ form {
           justify-content: center;
           align-items: center;
           height: auto;
-          width: 70%;
+          width: 100%;
           margin: 0px auto;
       }
 
@@ -152,13 +152,13 @@ form {
      .mob{
          display: block;
          width: 100%;
-         margin: 0px auto;
+         margin: 20px auto;
      }
      .item1{
          width: 100%;
      }
      .para{
-         width: 90%;
+         width: 70%;
          margin: 20px auto;
          text-align: center;
      }
