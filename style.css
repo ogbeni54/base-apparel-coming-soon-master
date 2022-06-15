@@ -151,9 +151,11 @@ form {
      }
      .mob{
          display: block;
-         width: 100%;
+         width: 60%;
          margin: 20px auto;
+         ;
      }
+  
      .item1{
          width: 100%;
      }
@@ -168,4 +170,10 @@ form {
      .h_d{
         width: auto;
      }
+     .mob > img{
+        width: 100%;
+     }
   }
+/* @media screen (max-width) {
+    
+} */
