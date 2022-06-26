@@ -201,11 +201,11 @@ form {
      }
      #error1{
         /* position: absolute; */
-        right: 40px;
+        right: 50px;
     }
     .feedback{
         /* width: 100%; */
-        margin: 10px 20px;
+        margin: 10px 10px;
         /* display: none; */
     }
   }
