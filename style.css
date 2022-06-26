@@ -132,6 +132,32 @@ form {
     height: 100%;
   } */
 
+@media screen and (max-width:1000px) {
+    #error1{
+        /* position: absolute; */
+        right: 80px;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    #error1{
+        /* position: absolute; */
+        right: 60px;
+    }
+    
+}
+
+@media screen and (max-width:655px) {
+    #error1{
+        /* position: absolute; */
+        right: 50px;
+    }
+    
+}
+
+
+
   @media screen and (max-width:535px ) {
       .container{
           flex-direction: column;
@@ -173,6 +199,11 @@ form {
      .mob > img{
         width: 100%;
      }
+     #error1{
+        /* position: absolute; */
+        right: 35px;
+        
+    }
   }
 /* @media screen (max-width) {
     
